@@ -1,12 +1,16 @@
-<div class="pokemon-card">
+<div class="pokemon-card" *ngIf="pokemon">
   <div class="pokemon-card__image">
+    <!--    <img-->
+    <!--      [src]="pokemon.image"-->
+    <!--      alt="Pokemon Image">-->
+
     <img
-      [src]="pokemon.image"
+      [src]="getPokemonImage(pokemon)"
       alt="Pokemon Image">
   </div>
 
   <div class="pokemon-card__number">
-    Nº {{ leadingZero(pokemon.number) }}
+    Nº {{ getPokemonNumber(pokemon) }}
   </div>
 
   <div class="pokemon-card__name">
