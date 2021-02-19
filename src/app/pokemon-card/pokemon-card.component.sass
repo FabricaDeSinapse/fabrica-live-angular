@@ -1,0 +1,207 @@
+.pokemon-card
+  display: flex
+  flex-direction: column
+  font-family: "Signika", arial, sans-serif
+  margin: 0 5px 50px
+  width: 215px
+
+  &__image
+    background: #F2F2F2
+
+  &__number,
+  &__name
+    padding: 0 10px
+
+  &__number
+    color: #919191
+    font-size: 80%
+    padding-top: 2px
+
+  &__name
+    color: #313131
+    font-size: 145%
+    margin: 0.5em 0 5px
+
+  &__types
+    display: flex
+
+  &__type
+    margin: 0 10px
+    border-radius: 3px
+    line-height: 18px
+    max-width: 110px
+    width: 38.4375%
+    float: left
+    text-transform: none
+    font-size: 11px
+    text-align: center
+
+    &--grass
+      background: #9bcc50
+      color: #212121
+
+    &--poison
+      background: #b97fc9
+      color: #FFFFFF
+
+    &--bug
+      background: -webkit-linear-gradient(180deg, #729f3f 50%, #729f3f 50%)
+      background: -ms-linear-gradient(180deg, #729f3f 50%, #729f3f 50%)
+      background: -moz-linear-gradient(180deg, #729f3f 50%, #729f3f 50%)
+      background: -o-linear-gradient(180deg, #729f3f 50%, #729f3f 50%)
+      background: linear-gradient(180deg, #729f3f 50%, #729f3f 50%)
+      background-color: #729f3f
+      color: #fff
+
+    &--dark
+      background: -webkit-linear-gradient(180deg, #707070 50%, #707070 50%)
+      background: -ms-linear-gradient(180deg, #707070 50%, #707070 50%)
+      background: -moz-linear-gradient(180deg, #707070 50%, #707070 50%)
+      background: -o-linear-gradient(180deg, #707070 50%, #707070 50%)
+      background: linear-gradient(180deg, #707070 50%, #707070 50%)
+      background-color: #707070
+      color: #fff
+
+    &--dragon
+      background: -webkit-linear-gradient(180deg, #53a4cf 50%, #f16e57 50%)
+      background: -ms-linear-gradient(180deg, #53a4cf 50%, #f16e57 50%)
+      background: -moz-linear-gradient(180deg, #53a4cf 50%, #f16e57 50%)
+      background: -o-linear-gradient(180deg, #53a4cf 50%, #f16e57 50%)
+      background: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%)
+      background-color: #53a4cf
+      color: #fff
+
+    &--electric
+      background: -webkit-linear-gradient(180deg, #eed535 50%, #eed535 50%)
+      background: -ms-linear-gradient(180deg, #eed535 50%, #eed535 50%)
+      background: -moz-linear-gradient(180deg, #eed535 50%, #eed535 50%)
+      background: -o-linear-gradient(180deg, #eed535 50%, #eed535 50%)
+      background: linear-gradient(180deg, #eed535 50%, #eed535 50%)
+      background-color: #eed535
+      color: #212121
+
+    &--fairy
+      background: -webkit-linear-gradient(180deg, #fdb9e9 50%, #fdb9e9 50%)
+      background: -ms-linear-gradient(180deg, #fdb9e9 50%, #fdb9e9 50%)
+      background: -moz-linear-gradient(180deg, #fdb9e9 50%, #fdb9e9 50%)
+      background: -o-linear-gradient(180deg, #fdb9e9 50%, #fdb9e9 50%)
+      background: linear-gradient(180deg, #fdb9e9 50%, #fdb9e9 50%)
+      background-color: #fdb9e9
+      color: #212121
+
+    &--fighting
+      background: -webkit-linear-gradient(180deg, #d56723 50%, #d56723 50%)
+      background: -ms-linear-gradient(180deg, #d56723 50%, #d56723 50%)
+      background: -moz-linear-gradient(180deg, #d56723 50%, #d56723 50%)
+      background: -o-linear-gradient(180deg, #d56723 50%, #d56723 50%)
+      background: linear-gradient(180deg, #d56723 50%, #d56723 50%)
+      background-color: #d56723
+      color: #fff
+
+    &--fire
+      background: -webkit-linear-gradient(180deg, #fd7d24 50%, #fd7d24 50%)
+      background: -ms-linear-gradient(180deg, #fd7d24 50%, #fd7d24 50%)
+      background: -moz-linear-gradient(180deg, #fd7d24 50%, #fd7d24 50%)
+      background: -o-linear-gradient(180deg, #fd7d24 50%, #fd7d24 50%)
+      background: linear-gradient(180deg, #fd7d24 50%, #fd7d24 50%)
+      background-color: #fd7d24
+      color: #fff
+
+    &--flying
+      background: -webkit-linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%)
+      background: -ms-linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%)
+      background: -moz-linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%)
+      background: -o-linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%)
+      background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%)
+      background-color: #3dc7ef
+      color: #212121
+
+    &--ghost
+      background: -webkit-linear-gradient(180deg, #7b62a3 50%, #7b62a3 50%)
+      background: -ms-linear-gradient(180deg, #7b62a3 50%, #7b62a3 50%)
+      background: -moz-linear-gradient(180deg, #7b62a3 50%, #7b62a3 50%)
+      background: -o-linear-gradient(180deg, #7b62a3 50%, #7b62a3 50%)
+      background: linear-gradient(180deg, #7b62a3 50%, #7b62a3 50%)
+      background-color: #7b62a3
+      color: #fff
+
+    &--grass
+      background: -webkit-linear-gradient(180deg, #9bcc50 50%, #9bcc50 50%)
+      background: -ms-linear-gradient(180deg, #9bcc50 50%, #9bcc50 50%)
+      background: -moz-linear-gradient(180deg, #9bcc50 50%, #9bcc50 50%)
+      background: -o-linear-gradient(180deg, #9bcc50 50%, #9bcc50 50%)
+      background: linear-gradient(180deg, #9bcc50 50%, #9bcc50 50%)
+      background-color: #9bcc50
+      color: #212121
+
+    &--ground
+      background: -webkit-linear-gradient(180deg, #f7de3f 50%, #ab9842 50%)
+      background: -ms-linear-gradient(180deg, #f7de3f 50%, #ab9842 50%)
+      background: -moz-linear-gradient(180deg, #f7de3f 50%, #ab9842 50%)
+      background: -o-linear-gradient(180deg, #f7de3f 50%, #ab9842 50%)
+      background: linear-gradient(180deg, #f7de3f 50%, #ab9842 50%)
+      background-color: #f7de3f
+      color: #212121
+
+    &--ice
+      background: -webkit-linear-gradient(180deg, #51c4e7 50%, #51c4e7 50%)
+      background: -ms-linear-gradient(180deg, #51c4e7 50%, #51c4e7 50%)
+      background: -moz-linear-gradient(180deg, #51c4e7 50%, #51c4e7 50%)
+      background: -o-linear-gradient(180deg, #51c4e7 50%, #51c4e7 50%)
+      background: linear-gradient(180deg, #51c4e7 50%, #51c4e7 50%)
+      background-color: #51c4e7
+      color: #212121
+
+    &--normal
+      background: -webkit-linear-gradient(180deg, #a4acaf 50%, #a4acaf 50%)
+      background: -ms-linear-gradient(180deg, #a4acaf 50%, #a4acaf 50%)
+      background: -moz-linear-gradient(180deg, #a4acaf 50%, #a4acaf 50%)
+      background: -o-linear-gradient(180deg, #a4acaf 50%, #a4acaf 50%)
+      background: linear-gradient(180deg, #a4acaf 50%, #a4acaf 50%)
+      background-color: #a4acaf
+      color: #212121
+
+    &--poison
+      background: -webkit-linear-gradient(180deg, #b97fc9 50%, #b97fc9 50%)
+      background: -ms-linear-gradient(180deg, #b97fc9 50%, #b97fc9 50%)
+      background: -moz-linear-gradient(180deg, #b97fc9 50%, #b97fc9 50%)
+      background: -o-linear-gradient(180deg, #b97fc9 50%, #b97fc9 50%)
+      background: linear-gradient(180deg, #b97fc9 50%, #b97fc9 50%)
+      background-color: #b97fc9
+      color: #fff
+
+    &--psychic
+      background: -webkit-linear-gradient(180deg, #f366b9 50%, #f366b9 50%)
+      background: -ms-linear-gradient(180deg, #f366b9 50%, #f366b9 50%)
+      background: -moz-linear-gradient(180deg, #f366b9 50%, #f366b9 50%)
+      background: -o-linear-gradient(180deg, #f366b9 50%, #f366b9 50%)
+      background: linear-gradient(180deg, #f366b9 50%, #f366b9 50%)
+      background-color: #f366b9
+      color: #fff
+
+    &--rock
+      background: -webkit-linear-gradient(180deg, #a38c21 50%, #a38c21 50%)
+      background: -ms-linear-gradient(180deg, #a38c21 50%, #a38c21 50%)
+      background: -moz-linear-gradient(180deg, #a38c21 50%, #a38c21 50%)
+      background: -o-linear-gradient(180deg, #a38c21 50%, #a38c21 50%)
+      background: linear-gradient(180deg, #a38c21 50%, #a38c21 50%)
+      background-color: #a38c21
+      color: #fff
+
+    &--steel
+      background: -webkit-linear-gradient(180deg, #9eb7b8 50%, #9eb7b8 50%)
+      background: -ms-linear-gradient(180deg, #9eb7b8 50%, #9eb7b8 50%)
+      background: -moz-linear-gradient(180deg, #9eb7b8 50%, #9eb7b8 50%)
+      background: -o-linear-gradient(180deg, #9eb7b8 50%, #9eb7b8 50%)
+      background: linear-gradient(180deg, #9eb7b8 50%, #9eb7b8 50%)
+      background-color: #9eb7b8
+      color: #212121
+
+    &--water
+      background: -webkit-linear-gradient(180deg, #4592c4 50%, #4592c4 50%)
+      background: -ms-linear-gradient(180deg, #4592c4 50%, #4592c4 50%)
+      background: -moz-linear-gradient(180deg, #4592c4 50%, #4592c4 50%)
+      background: -o-linear-gradient(180deg, #4592c4 50%, #4592c4 50%)
+      background: linear-gradient(180deg, #4592c4 50%, #4592c4 50%)
+      background-color: #4592c4
+      color: #fff
